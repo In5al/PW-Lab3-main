@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SciFi Inkie Stories</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script href="bootstrap-5.3.3-dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Your custom styles -->
+  </head>
+
+  <body>
+    <header>
+      <h1>SciFi Inkie Stories</h1>
+      <!-- Use Bootstrap navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SciFi Inkie Stories</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#latest-issue">Latest Issue</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured-comments"
+                  >Featured Comments</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#support-me">Support Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="welcome-section" id="welcome-section">
+      <div
+        class="welcome-section d-flex justify-content-between align-items-center"
+        id="welcome-section"
+      >
+        <div class= "welcome-section style col-md-6 " id="welcome-section">
+          <h1>Welcome to Sci-Fi Inkie Stories</h1>
+          <p>Your gateway to captivating sci-fi adventures.</p>
+          <a href="https://dontpad.com/AEON5" target="_blank"><button>Learn More</button></a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="landing-page about" id="about">
+        <h2>About Me</h2>
+        <div class="about-me-content">
+          <div class="container">
+            <img src="mystery.jpg" alt="About Me Photo" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              convallis mauris eu massa varius, ac tincidunt nunc fringilla.
+              Integer nec tristique neque. Fusce ut justo quis mauris auctor
+              sagittis.
+            </p>
+            <p>
+              Proin feugiat risus non semper fringilla. Sed posuere vehicula
+              lorem, eu pharetra libero consequat ut. Aliquam fringilla volutpat
+              urna id bibendum. Fusce feugiat ullamcorper metus, vel tincidunt
+              purus volutpat sit amet.
+            </p>
+          </div>
+          <!-- Add more content here -->
+        </div>
+      </section>
+
+      <section class="landing-page latest-issue" id="latest-issue">
+        <!-- Latest Issue section content -->
+        <div class="container-fluid">
+          <h2>Latest Issue</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Chapter 1: The Beginning</h3>
+              <!-- Chapter content -->
+            </div>
+            <div class="col-md-6">
+              <h3>Chapter 2: The Adventure Continues</h3>
+              <!-- Chapter content -->
+            </div>
+            <div class="col-md-6">
+              <h3>Chapter 3: The Encounter witht he Wild</h3>
+              <!-- Chapter content -->
+            </div>
+            <div class="col-md-6">
+              <h3>Chapter 4: Making Friends along the way</h3>
+              <!-- Chapter content -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="landing-page featured-comments" id="featured-comments">
+        <div class="container-fluid"
+        <h2>Featured Comments</h2>
+        <div class="comments">
+          <div class="comment">
+            <h3>User123:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+            <p>
+              <strong>Response:</strong> Sed posuere vehicula lorem, eu pharetra
+              libero consequat ut.
+            </p>
+          </div>
+          <!-- Add more comments and responses here -->
+        </div>
+      </section>
+
+      <section class="landing-page support-me" id="support-me">
+        <h2>Support Us</h2>
+        <p>
+          If you enjoy Sci-Fi Inkie Stories and wish to help us continue our
+          mission, consider contributing. Your support allows us to keep
+          bringing you captivating sci-fi adventures.
+        </p>
+        <a href="https://www.patreon.com/scifiinkiestories" target="_blank"
+          ><button>Support on Patreon</button></a
+        >
+        <a href="https://www.instagram.com/scifiinkiestories/" target="_blank"
+          ><button>Follow on Instagram</button></a
+        >
+        <a href="https://www.facebook.com/scifiinkiestories/" target="_blank"
+          ><button>Like us on Facebook</button></a
+        >
+      </section>
+
+      <!-- Mobile-only section -->
+      <section class="landing-page mobile-only" id="mobile-only">
+        <h2>Mobile-only Section</h2>
+        <p>This section is only visible on mobile devices.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Sci-Fi Inkie Stories</p>
+    </footer>
+
+    <!-- Mascot Image -->
+    <img src="bigboy-maxi.png" alt="Mascot" id="mascot" />
+
+    <!-- Add hover effect to mascot -->
+    <script>
+      const mascot = document.getElementById("mascot");
+      mascot.addEventListener("mouseover", () => {
+        // Display welcome message or call to action
+        alert("Welcome to Sci-Fi Inkie Stories!");
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
